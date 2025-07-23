@@ -17,6 +17,11 @@ import 'webview_page.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  
+  const supabaseUrl = '';
+  const supabaseAnonKey =
+      '';
+  
   await Supabase.initialize(
     url: supabaseUrl,
     anonKey: supabaseAnonKey,

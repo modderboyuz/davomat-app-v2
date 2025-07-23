@@ -17,9 +17,9 @@ import 'webview_page.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  const supabaseUrl = 'https://vrvbmrmdcoxotyreevni.supabase.co';
+  const supabaseUrl = '';
   const supabaseAnonKey =
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZydmJtcm1kY294b3R5cmVldm5pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAxNDIxNzQsImV4cCI6MjA2NTcxODE3NH0.s_hDAQBPV27ikU289eOqPB-Au-M9eulMeqxNu4LMhM8';
+      '';
   await Supabase.initialize(
     url: supabaseUrl,
     anonKey: supabaseAnonKey,
